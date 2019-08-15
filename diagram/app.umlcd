@@ -676,6 +676,143 @@
           "text": "+ list(): List\u003cDevice\u003e"
         }
       }
+    },
+    {
+      "type": "uml.Class",
+      "name": "testeMari",
+      "attributes": [
+        "id:java.lang.String",
+        "real:java.math.BigDecimal",
+        "numero:java.lang.Double"
+      ],
+      "methods": [],
+      "position": {
+        "x": 396,
+        "y": 265
+      },
+      "size": {
+        "width": 168.78125,
+        "height": 118.69715118408203
+      },
+      "angle": 0,
+      "realName": "",
+      "role": "Auto",
+      "generateView": "Auto",
+      "isRest": "true",
+      "id": "dfa14f47-842c-4358-a77e-2287ab035baf",
+      "modelType": "Table",
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "UUID.randomUUID().toString().toUpperCase()",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "pkType": "UUID",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        },
+        {
+          "name": "real",
+          "type": "java.math.BigDecimal",
+          "dbName": "real",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Real",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        },
+        {
+          "name": "numero",
+          "type": "java.lang.Double",
+          "dbName": "numero",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Numero",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        }
+      ],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "z": 14,
+      "queries": [],
+      "attrs": {
+        "rect": {
+          "stroke": "yellow",
+          "stroke-width": 2
+        },
+        ".uml-class-name-rect": {
+          "height": 50,
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-attrs-rect": {
+          "height": 90,
+          "transform": "translate(0,50)"
+        },
+        ".uml-class-methods-rect": {
+          "height": 30,
+          "transform": "translate(0,140)"
+        },
+        ".uml-class-name-text": {
+          "fill": "#000",
+          "font-size": 12,
+          "text": "testeMari",
+          "font-weight": "bold"
+        },
+        ".uml-class-attrs-text": {
+          "font-size": 11,
+          "text": "id\nreal\nnumero\n"
+        },
+        ".uml-class-attrs-value": {
+          "ref-x": 71.296875,
+          "font-size": 11,
+          "text": "Texto\nDecimal Grande\nNumérico\n"
+        },
+        ".uml-class-methods-text": {
+          "fill": "#0066FF",
+          "font-size": 11,
+          "text": ""
+        }
+      }
     }
   ],
   "selectedGroup": "1d7f906f-a526-482d-aaf4-08d227ae8c18",
@@ -692,6 +829,7 @@
       "name": "",
       "id": "1d7f906f-a526-482d-aaf4-08d227ae8c18",
       "cells": [
+        "dfa14f47-842c-4358-a77e-2287ab035baf",
         "d2e50f97-0b9e-4037-94ba-af64568af247",
         "1df87f56-c5ba-47f5-8e68-82931f49b989",
         "d92238a3-a37d-4cc6-a543-d0687dc207cd"
